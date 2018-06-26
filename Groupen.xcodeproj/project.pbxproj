@@ -7,9 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5214C06020DECC6E006030B7 /* connectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5214C05F20DECC6E006030B7 /* connectionManager.swift */; };
+		5214C06220E20955006030B7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5214C06120E20955006030B7 /* ProfileViewController.swift */; };
+		5214C06420E216C9006030B7 /* CircleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5214C06320E216C9006030B7 /* CircleViewController.swift */; };
+		529E39B520E242C700AAC22C /* GroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529E39B420E242C700AAC22C /* GroupViewController.swift */; };
+		529E39B720E29D0200AAC22C /* newGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529E39B620E29D0200AAC22C /* newGroupViewController.swift */; };
+		529E39B920E29F9A00AAC22C /* newCircleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529E39B820E29F9A00AAC22C /* newCircleViewController.swift */; };
+		529E39BB20E2A00500AAC22C /* newProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529E39BA20E2A00500AAC22C /* newProductViewController.swift */; };
+		529E39BD20E2D4E200AAC22C /* detailProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529E39BC20E2D4E200AAC22C /* detailProductViewController.swift */; };
 		D641CF5920DCC2470025B03B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D641CF5820DCC2470025B03B /* AppDelegate.swift */; };
 		D641CF5B20DCC2470025B03B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D641CF5A20DCC2470025B03B /* MainViewController.swift */; };
-		D641CF5E20DCC2470025B03B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D641CF5C20DCC2470025B03B /* Main.storyboard */; };
+		D641CF5E20DCC2470025B03B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D641CF5C20DCC2470025B03B /* Main.storyboard */; settings = {ASSET_TAGS = (imageTag, labelTag, ); }; };
 		D641CF6020DCC24C0025B03B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D641CF5F20DCC24C0025B03B /* Assets.xcassets */; };
 		D641CF6320DCC24C0025B03B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D641CF6120DCC24C0025B03B /* LaunchScreen.storyboard */; };
 		D641CF6E20DCC24C0025B03B /* GroupenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D641CF6D20DCC24C0025B03B /* GroupenTests.swift */; };
@@ -42,6 +50,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5214C05F20DECC6E006030B7 /* connectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = connectionManager.swift; sourceTree = "<group>"; };
+		5214C06120E20955006030B7 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		5214C06320E216C9006030B7 /* CircleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleViewController.swift; sourceTree = "<group>"; };
+		529E39B420E242C700AAC22C /* GroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupViewController.swift; sourceTree = "<group>"; };
+		529E39B620E29D0200AAC22C /* newGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newGroupViewController.swift; sourceTree = "<group>"; };
+		529E39B820E29F9A00AAC22C /* newCircleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newCircleViewController.swift; sourceTree = "<group>"; };
+		529E39BA20E2A00500AAC22C /* newProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newProductViewController.swift; sourceTree = "<group>"; };
+		529E39BC20E2D4E200AAC22C /* detailProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailProductViewController.swift; sourceTree = "<group>"; };
 		D641CF5520DCC2470025B03B /* Groupen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Groupen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D641CF5820DCC2470025B03B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D641CF5A20DCC2470025B03B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -124,6 +140,14 @@
 				D641CF8820DCCCE00025B03B /* AccountViewController.swift */,
 				D641CF9620DDA3840025B03B /* LoginViewController.swift */,
 				D641CF9820DDA3930025B03B /* SignupViewController.swift */,
+				5214C05F20DECC6E006030B7 /* connectionManager.swift */,
+				5214C06120E20955006030B7 /* ProfileViewController.swift */,
+				5214C06320E216C9006030B7 /* CircleViewController.swift */,
+				529E39B420E242C700AAC22C /* GroupViewController.swift */,
+				529E39B620E29D0200AAC22C /* newGroupViewController.swift */,
+				529E39B820E29F9A00AAC22C /* newCircleViewController.swift */,
+				529E39BA20E2A00500AAC22C /* newProductViewController.swift */,
+				529E39BC20E2D4E200AAC22C /* detailProductViewController.swift */,
 			);
 			path = Groupen;
 			sourceTree = "<group>";
@@ -227,6 +251,10 @@
 		D641CF4D20DCC2470025B03B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					imageTag,
+					labelTag,
+				);
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = Groupen;
@@ -302,10 +330,18 @@
 			files = (
 				D641CF9920DDA3930025B03B /* SignupViewController.swift in Sources */,
 				D641CF8720DCCBD50025B03B /* ProductViewController.swift in Sources */,
+				5214C06420E216C9006030B7 /* CircleViewController.swift in Sources */,
 				D641CF5B20DCC2470025B03B /* MainViewController.swift in Sources */,
+				529E39B520E242C700AAC22C /* GroupViewController.swift in Sources */,
+				529E39B720E29D0200AAC22C /* newGroupViewController.swift in Sources */,
 				D641CF8920DCCCE00025B03B /* AccountViewController.swift in Sources */,
+				529E39BB20E2A00500AAC22C /* newProductViewController.swift in Sources */,
 				D641CF9720DDA3840025B03B /* LoginViewController.swift in Sources */,
+				529E39BD20E2D4E200AAC22C /* detailProductViewController.swift in Sources */,
 				D641CF5920DCC2470025B03B /* AppDelegate.swift in Sources */,
+				5214C06220E20955006030B7 /* ProfileViewController.swift in Sources */,
+				5214C06020DECC6E006030B7 /* connectionManager.swift in Sources */,
+				529E39B920E29F9A00AAC22C /* newCircleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
