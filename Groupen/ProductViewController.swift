@@ -20,7 +20,9 @@ class ProductViewController: UIViewController,UISearchBarDelegate,UITableViewDat
     
     var result:[prodcut] = []
     var input:[prodcut] = []
-    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(false)
+    }
     override func viewWillAppear(_ animated: Bool) {
         let parameters = "";
         let address = "groupen/ios/productList.php"

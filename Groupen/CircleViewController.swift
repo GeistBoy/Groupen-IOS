@@ -19,7 +19,9 @@ class CircleViewController: UIViewController,UISearchBarDelegate,UITableViewData
     
     
     
-    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(false)
+    }
     
     var result:[circles] = []
     var input:[circles] = []

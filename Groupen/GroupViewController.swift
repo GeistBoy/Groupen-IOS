@@ -21,7 +21,9 @@ class GroupViewController: UIViewController,UISearchBarDelegate,UITableViewDataS
         var starterID:String
         var productID:Int
     }
-    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(false)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
